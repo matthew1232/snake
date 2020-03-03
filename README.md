@@ -8,7 +8,5 @@
 
 ## How to setup
 
-1. Clone this repo:
-- git clone snake
-
-2. Open up the file `index.html` in the repo in a browser
+- Clone this repo by running `git clone snake` or downloading the ZIP.
+- Open up the file `index.html` in the repo in a browser
