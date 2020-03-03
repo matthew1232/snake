@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/8cc1508b43.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="score">Score: 0</div>
+
+    <canvas id="snake" width="320" height="360"></canvas>
+
+    <div class="mobile-controls">
+        <div class="control" id="left"><i class="fas fa-arrow-left"></i></div>
+        <div class="control" id="up"><i class="fas fa-arrow-up"></i></div>
+        <div class="control" id="right"><i class="fas fa-arrow-right"></i></div>
+        <div class="control" id="down"><i class="fas fa-arrow-down"></i></div>
+    </div>
+
+    <div class="speed-controls">
+        <span class="speed-controls__text">Speed</span>
+        <input type="range" class="speed-controls__input" max="500" value="380" min="100" id="speed">
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
